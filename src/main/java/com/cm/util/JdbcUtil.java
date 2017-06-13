@@ -1,7 +1,5 @@
 package com.cm.util;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -39,7 +37,8 @@ public class JdbcUtil {
     public static Connection getConnection() {
         try {
 
-            Connection conn = DriverManager.getConnection(url,user,password);
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/CM"
+                    , "root", "123456");
             return conn;
         } catch (Exception e) {
             throw new RuntimeException("连接数据库的url和用户密码错误");

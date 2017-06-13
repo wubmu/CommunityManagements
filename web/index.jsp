@@ -11,11 +11,11 @@
     <title>$Title$</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="adminIndex.jsp" method="post">
     用户名:<input type="text" name="username" value="">
     密码&nbsp:<input type="password" name="password" value="">
-    <input type="submit" value="登陆">
-    <input type="reset" value="重置">
+    <input type="submit" value="登录">
+    <input type="reset" value="取消">
 </form>
 </body>
 </html>

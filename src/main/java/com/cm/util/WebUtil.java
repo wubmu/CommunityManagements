@@ -1,8 +1,10 @@
 package com.cm.util;
 
+import com.cm.bean.Customer;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by 吴亚斌 on 2017/5/30.
@@ -30,5 +32,16 @@ public class WebUtil {
 
         }
 
+    }
+    public static void fillname(HttpServletRequest request){
+        Customer c=new Customer();
+        try {
+            BeanUtils.setProperty(c,"name",request.getParameter("name"));
+            System.out.print(c.toString());
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -1,0 +1,85 @@
+#container{
+    width:1002px;
+    margin:0  auto;
+    background: url("/img/bigbackground.jpg");
+}
+#nav{
+    height:128px;
+    background-color:white ;
+
+    width: 1002px;
+    margin-left: 459px;
+}
+#nav1{
+    margin-top: 10px;
+    margin-left:30px;
+}
+#nav1 li{
+    float:left;
+    width:90px;
+}
+#nav1 a{
+    text-decoration: none;
+}
+#nav1 a:hover{
+    color:orange;
+}
+#head{
+    height:237px;
+    background: url("/img/background.jpg");
+    width: 1002px;
+    margin: 0 auto;
+}
+#main{
+    height:1800px;
+    width: 1000px;
+    border:1px solid #000;
+    margin: 0 auto;
+}
+#left{
+    width: 300px;
+    float: left;
+}
+#leftone{
+    width: 280px;
+    height: 250px;
+    float: left;
+}
+#lefttwo{
+    width: 280px;
+    height: 300px;
+    float: left;
+}
+#leftthree{
+    width:280px;
+    height:300px;
+    float:left;
+}
+#right{
+    width: 660px;
+    float: left;
+    margin: 0 auto;
+}
+#rightone{
+    width:660px;
+    height:200px;
+    float:left;
+}
+#righttwo{
+    width: 660px;
+    height:400px;
+    float: left;
+}
+#rightthree{
+    width:660px;
+    height: 300px;
+    float: left;
+}
+#rightfour{
+    width:660px;
+    height: 500px;
+    float: left;
+}
+body{
+    /*background: url("/img/bigbackground.jpg");*/
+}

@@ -6,14 +6,20 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-    <title>管理员主页</title>
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <jsp:include page="head.jsp"></jsp:include>
 </head>
-<body>
-<a>发布公告</a>
-<a>添加业主</a>
-<a>查看未缴物业用户</a>
+
+<body background="img/bigbackground.jpg">
+<iframe width="300px" src="left.jsp" style="margin-left: 459px " height="1800px" scrolling="no" name="show1">
+</iframe>
+<iframe width="690px" src="indexright.jsp"   scrolling="no" height="1800px" name="show2" style="word-break:break-all">
+</iframe>
+
+
 
 </body>
 </html>
